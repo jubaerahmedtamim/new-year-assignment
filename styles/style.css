@@ -149,7 +149,37 @@ main {
     margin-bottom: 30px;
     color: #FFFFFF;
 }
+/* motivation section styles */
+.motivation-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 130px
+}
+.motivation-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 15px;
 
+}
+.motivation-content img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.moti-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.moti-desc{
+    font-weight: 400;
+    font-size: 25px;
+}
 /* footer styels here */
 footer {
     background-color: #151414;
